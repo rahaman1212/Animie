@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(51, 60, 77);
+}
+
+.search {
+    display: block;
+    content: 'G';
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    left: 100px;
+    width: 1050px;
+    border: none;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    margin-top: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #001b3eff;
+}
+
+.search-bar {
+    width: 660px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    margin-top: 20px;
+    position: relative;
+    left: -10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.google {
+    display: block;
+    width: 300px;
+    height: 140px;
+    border-radius: 20px;
+    font-size: larger;
+    justify-items: center;
+    margin-left: 170px;
+}
+
+.google-search {
+    display: inline-block;
+    width: 517px;
+    margin-top: 100px;
+    position: relative;
+    left: 235px;  
+    justify-items: center;  
+    justify-items: center;   
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    width: 30px;
+    margin-top: 80px;
+    position: relative;
+    left: 600px;
+    font-size: larger;
+    border: none;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#star {
+    position: relative;
+    top: -344px;
+    left: 1140px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#search {
+    position: relative;
+    top: -40px;
+    left: -5px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+#cam{
+    position: relative;
+    left: 580px;
+    top: -40px;
+    cursor: pointer;
+}
+
+#mic {
+    position: relative;
+    left: 575px;
+    top: -40px;
+    cursor: pointer;
+}
+
+#google {
+    position: relative;
+    left: 120px;
+    top: -345px;
+    padding-left: 0;
+}
+
+.search #google {
+    content: 'G';
+    font-weight: bolder;
+    color: white;
+}
+
+.cta-btn {
+    position: relative;
+    left: 500px;
+    margin: 20px;
+    font-family: Google Sans, Arial, sans-serif;
+}
+
+.cta-btn button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+
+}
